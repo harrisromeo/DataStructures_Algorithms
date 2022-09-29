@@ -14,8 +14,430 @@ namespace Testing
     {
         static void Main(string[] args)
         {
+            //string S = "([)()]";
+            //string S2 = "{[()()]}";
 
-            
+            //int result = solution(S2);
+            //Console.WriteLine(result);  
+
+            //int a = 3605;
+            //string answer = Solution.solution(a);
+            //Console.WriteLine(answer);
+
+            //IDictionary NodeChildrenPair = new Dictionary<int, List<int>>() 
+            //{
+            //    { 0, new List<int>(){0,4,0,0,0,0,0,8,0} },
+            //    { 1, new List<int>(){4,0,8,0,0,0,0,11,0} },
+            //    { 2, new List<int>(){0,8,0,7,0,4,0,0,2} },
+            //    { 3, new List<int>(){0,0,7,0,9,14,0,0,0} },
+            //    { 4, new List<int>(){0,0,0,9,0,10,0,0,0} },
+            //    { 5, new List<int>(){0,0,4,14,10,0,2,0,0} },
+            //    { 6, new List<int>(){0,0,0,0,0,2,0,1,6} },
+            //    { 7, new List<int>(){8,11,0,0,0,0,1,0,7} },
+            //    { 8, new List<int>(){0,0,2,0,0,0,6,7,0} }
+            //};    
+
+
+            //IDictionary<string, double> DepartmentStaffPair = new Dictionary<string, double>()
+            //{
+            //    {"Applied Maths", 7},
+            //    {"R & D", 16},
+            //    {"Software Dev", 8},
+            //    {"Coporate Services", 12 }
+            //};
+
+
+            //Console.WriteLine(DepartmentStaffPair.Count());
+            //Console.WriteLine(DepartmentStaffPair.LongCount());
+
+            //DepartmentStaffPair.TryGetValue("Coporate Services", out double CoporateServicesNumber);
+            //Console.WriteLine(CoporateServicesNumber);
+
+            //DepartmentStaffPair.Remove("Coporate Services");
+            //foreach (var pair in DepartmentStaffPair)
+            //{
+            //    Console.Write(pair.Key + " "); Console.WriteLine(pair.Value);
+            //}
+
+            //KeyValuePair<string, double> item = new KeyValuePair<string, double>("R & D", 16);
+            //if (DepartmentStaffPair.Contains(item))
+            //{
+            //    Console.WriteLine("Yes. It contains " + item.ToString());
+
+            //}
+
+
+
+
+            Console.ReadLine();
+
+
+
+            //////BINARY TREE (In-ORDER DFS Traversal)
+            //BinaryTree<int> TestBinaryTree = new BinaryTree<int>(1,
+            //                                     new BinaryTree<int>(2,
+            //                                         null,
+            //                                         new BinaryTree<int>(4,
+            //                                             null,
+            //                                             null)),
+            //                                     new BinaryTree<int>(3,
+            //                                         null,
+            //                                         new BinaryTree<int>(5,
+            //                                             null,
+            //                                             null
+            //                                         ))
+            //                                 );
+            //TestBinaryTree.PrintInOrder();
+            //Console.ReadLine();
+
+
+            //Contacts contacts = new Contacts();
+
+            //List<string> the_strings = new List<string>() {"add hack","add hackerrank","find hac","find hak" };
+
+            //foreach (var str in the_strings)
+            //{
+            //    string[] splitted = str.Split(new char[] { ' ' },StringSplitOptions.RemoveEmptyEntries);
+            //    if (splitted[0] == "add")
+            //        contacts.Add(splitted[1]);
+            //    else if (splitted[0] == "find")
+            //        Console.WriteLine(contacts.Find(splitted[1]));
+            //}
+            //Console.ReadLine();
+
+
+            //List<double> list = new List<double>() {12,4,5,3,8,7 };
+            //List<double> runningList = new List<double>();
+
+            //for (int i = 0; i < list.Count; i++)
+            //{
+            //    double median = RunningMedian(runningList,list[i]);
+            //    Console.WriteLine(median);
+            //}
+            //Console.ReadLine();
+
+            //int x = 5; int y =(int)(x / 2);
+            //    Console.WriteLine(y);
+            //Console.ReadLine();
+            //int n = Convert.ToInt32(Console.ReadLine());
+
+            //List<string> queryList = new List<string>();
+            //for (int i = 0; i < n; i++)
+            //{
+            //    string s = Console.ReadLine();
+            //    string result = isBalanced(s);
+            //    queryList.Add(result);
+            //}
+
+            //foreach (var query in queryList)
+            //{
+            //    Console.WriteLine(query);
+            //}
+            //Console.ReadLine();
+
+            //string declared = "Intern pool";
+            //string built = new StringBuilder(declared).ToString();
+            //string interned = string.Intern(built);
+
+            //Console.WriteLine(object.ReferenceEquals(declared,built));
+            //Console.WriteLine(object.ReferenceEquals(declared,interned));
+            //Console.ReadLine();
+
+            //////INPUT TO CONSOLE
+
+            //string integers = Console.ReadLine();
+            //char[] seperators = { ' ' };
+            //string[] integers_splitted = integers.Split(seperators, StringSplitOptions.RemoveEmptyEntries);
+
+            //List<int> numIntegers = integers_splitted.Select(i => int.Parse(i)).ToList();
+            //BinarySearchTree<int> binarySearchTree = new BinarySearchTree<int>();
+
+            //foreach (int integer in numIntegers)
+            //{
+            //    binarySearchTree.Insert(integer);
+            //}
+
+            /////OUTPUT TO CONSOLE
+            //binarySearchTree.LevelOrder(binarySearchTree.root); //key point is how you insert. that's the basis for comparison.
+            //Console.ReadLine();
+
+
+
+
+
+            ////INPUT TO CONSOLE
+
+            //string integers = Console.ReadLine();
+            //char[] seperators = { ' ' };
+            //string[] integers_splitted = integers.Split(seperators, StringSplitOptions.RemoveEmptyEntries);
+
+            //List<int> numIntegers = integers_splitted.Select(i => int.Parse(i)).ToList();
+            //BinarySearchTree<int> binarySearchTree = new BinarySearchTree<int>();
+
+            //foreach (int integer in numIntegers)
+            //{
+            //    binarySearchTree.Insert(integer);
+            //}
+
+            ////OUTPUT TO CONSOLE
+            //binarySearchTree.LevelOrder_N2(binarySearchTree.root); //key point is how you insert. that's the basis for comparison.
+
+
+            //Console.ReadLine();
+
+
+            //////INPUT TO CONSOLE
+
+            //string n_str = Console.ReadLine();
+            //bool n_success = int.TryParse(n_str, out int n);
+
+            //string integers = Console.ReadLine();
+            //char[] seperator = { ' ' };
+            //string[] integers_splitted = integers.Split(seperator, StringSplitOptions.RemoveEmptyEntries);
+
+            //List<int> numIntegers = integers_splitted.Select(i => int.Parse(i)).ToList();
+            //BinarySearchTree<int> binarySearchTree = new BinarySearchTree<int>();
+
+            //foreach (int integer in numIntegers)
+            //{
+            //    binarySearchTree.Insert(integer);
+            //}
+
+            //int treeHeight = binarySearchTree.getHeight(binarySearchTree.root);
+
+
+            ////PRINT RESULT TO THE CONSOLE 
+            //Console.WriteLine(treeHeight);
+            //Console.ReadLine();
+
+
+            //BinarySearchTree<int> tree = new BinarySearchTree<int>();
+            //tree.Insert("Telerik");
+            //tree.Insert("Google");
+            //tree.Insert("Microsoft");
+            ////tree.PrintTreeDFS();
+            ////Console.WriteLine(tree.Contains("Telerik"));
+            ////Console.WriteLine(tree.Contains("IBM"));
+            //tree.Remove("Telerik");
+            ////Console.WriteLine(tree.Contains("Telerik"));
+            //tree.PrintTreeDFS();
+            //Console.ReadLine();
+
+
+
+            ////SECTION THAT READS-IN ALL GRAPH QUERY INPUT DATA FROM THE CONSOLE 
+
+            //string queryString = Console.ReadLine();
+            //bool queryNumSuccess = int.TryParse(queryString, out int queryNumbers);
+
+            //List<GetShortestNodesPaths> queryList = new List<GetShortestNodesPaths>();
+
+            //for (int i = 0; i < queryNumbers; i++)
+            //{
+            //    List<int>[] myEdges;
+            //    string n_m = Console.ReadLine();
+            //    char[] nm_seperator = { ' ' };
+            //    string[] nm_Splitted = n_m.Split(nm_seperator, StringSplitOptions.RemoveEmptyEntries);
+            //    int n;
+            //    bool n_Success = int.TryParse(nm_Splitted[0], out n);
+            //    int m;
+            //    bool m_Success = int.TryParse(nm_Splitted[1], out m);
+
+            //    myEdges = new List<int>[m];
+
+
+
+            //    for (int j = 0; j < m; j++)
+            //    {
+            //        myEdges[j] = new List<int>();
+
+            //        string u_v = Console.ReadLine();
+            //        char[] uv_seperator = { ' ' };
+            //        string[] uv_Splitted = u_v.Split(uv_seperator, StringSplitOptions.RemoveEmptyEntries);
+
+            //        int u;
+            //        bool u_Success = int.TryParse(uv_Splitted[0], out u);
+            //        u = u - 1; //THIS PROGRAM IS BASED ON ZERO-BASED VERTEX (NODES) COUNT
+            //        myEdges[j].Add(u);
+
+            //        int v;
+            //        bool v_Success = int.TryParse(uv_Splitted[1], out v);
+            //        v = v - 1;//THIS PROGRAM IS BASED ON ZERO-BASED VERTEX (NODES) COUNT
+            //        myEdges[j].Add(v);
+
+
+            //        //CLEAR EDGES DATA (TO THEIR DEFAULT VALUES) FOR THE NEXT QUERY.
+            //        u_v = null; uv_seperator = null; uv_Splitted = null; u = 0; u_Success = false;
+            //        v = 0; v_Success = false;
+
+
+            //    }
+
+
+            //    string s_string = Console.ReadLine();
+            //    int s;
+            //    bool s_success = int.TryParse(s_string, out s);
+            //    s = s - 1; //THIS PROGRAM IS BASED ON ZERO-BASED VERTEX (NODES) COUNT
+
+            //    GetShortestNodesPaths myGraph = new GetShortestNodesPaths(myEdges, n, m, s);
+
+            //    queryList.Add(myGraph);
+            //    //CLEAR VARIABLES OF THE QUERY LOOP (TO THEIR DEFAULT VALUES) FOR THE NEXT QUERY.
+            //    myEdges = null; n_m = null; nm_seperator = null; nm_Splitted = null; n_Success = false;
+            //    m_Success = false; s_string = null; s = 0; s_success = false; 
+            //}
+
+
+
+
+            ////SECTION THAT PRINTS OUT ALL GRAPH QUERY RESULTS  TO THE CONSOLE 
+
+
+            //foreach (GetShortestNodesPaths graph in queryList)
+            //{
+            //    graph.dijkstra();
+            //}
+
+
+            //Console.ReadLine();
+
+
+            //if (!(numberQueries >= 1 && numberQueries <= 10))
+            //{
+            //    throw new Exception("The number of queries must be equal or greater than 1 and less than or equal to 10");
+            //}
+
+            //if (!(n >= 2 && n <= 1000))
+            //{
+            //    throw new Exception(" n must be equal or greater than 2 and less than or equal to 1000");
+            //}
+
+
+            //if (!(m >= 1 && m <= (n * n - 1) / 2))
+            //{
+            //    throw new Exception(" m must be equal or greater than 1 and less than or equal to " + (n * n - 1) / 2);
+            //}
+
+
+            //if (!(u >= 0 && u < n))
+            //{
+            //    throw new Exception("u must be equal or greater than 1 and less than or equal to " + n);
+            //}
+
+
+            //if (!(v >= 0 && v < n))
+            //{
+            //    throw new Exception("v must be equal or greater than 1 and less than or equal to n " + n);
+            //}
+
+
+
+
+            //if (!(s >= 0 && s < n))
+            //{
+            //    throw new Exception("s must be equal or greater than 1 and less than or equal to " + n);
+            //}
+
+
+
+
+            //int numberQueries2 = int.Parse(Console.ReadLine());
+
+
+
+
+
+
+
+
+
+            //int[,] graph = new int[,]  {
+            //                                { 0, 6, 0, 0, 6, 0 },
+            //                                { 6, 0, 6, 0, 0, 0 },
+            //                                { 0, 6, 0, 6, 0, 0},
+            //                                { 0, 0, 6, 0, 0, 0},
+            //                                { 6, 0, 0, 0, 0, 0},
+            //                                { 0, 0, 0, 0, 0, 0 }
+            //};
+
+            //GetShortestNodesPaths myGraph = new GetShortestNodesPaths(graph,0);
+
+            //myGraph.dijkstra();
+            //Console.ReadLine();
+
+
+
+            //int[,] graph = new int[,]     { { 0, 4, 0, 0, 0, 0, 0, 8, 0 },
+            //                                { 4, 0, 8, 0, 0, 0, 0, 11, 0 },
+            //                                { 0, 8, 0, 7, 0, 4, 0, 0, 2 },
+            //                                { 0, 0, 7, 0, 9, 14, 0, 0, 0 },
+            //                                { 0, 0, 0, 9, 0, 10, 0, 0, 0 },
+            //                                { 0, 0, 4, 14, 10, 0, 2, 0, 0 },
+            //                                { 0, 0, 0, 0, 0, 2, 0, 1, 6 },
+            //                                { 8, 11, 0, 0, 0, 0, 1, 0, 7 },
+            //                                { 0, 0, 2, 0, 0, 0, 6, 7, 0 } };
+
+            //GetShortestNodesPaths t = new GetShortestNodesPaths();
+
+            //t.dijkstra(graph, 0);
+            //Console.ReadLine();
+
+
+            //List<int> testCase = new List<int>(5) {0,0,1,0 };
+            //testCase[3] = 2;
+            //testCase.Add(3);
+
+            //List<int> nstates = new List<int>() { 1, 6, 3, 5, 6, 1 };
+
+            //WeightedGraph myWeightedGraph = new WeightedGraph(new List<int>[] { new List<int> { 1, 2, 3, 4, 5, 6 }, new List<int> { 0, 7 }, new List<int> { 0, 9 }, new List<int> { 0, 9 },new List<int> { 0,7,8 }, new List<int> {0,9},new List<int> {0,9},new List<int> { 1, 4, 10, 11 },
+            //                                                                      new List<int> {4,11,12,13},new List<int> { 2,3,5,6,13,14 }, new List<int> { 7,15,18 },new List<int> { 7,8,16,17 },new List<int> { 8,17 },new List<int> { 8,9,19 },new List<int> { 9,18,20 },
+            //                                                                      new List<int> { 10,21 },new List<int> {11,21},new List<int> { 11,12,21 },new List<int> { 10,14,21 }, new List<int> { 13, 21 },new List<int> { 14,21 }, new List<int> { 15,16,17,18,19,20 }
+
+            //}, new List<double>[] { new List<double> { 3, 1, 4, 2, 1, 5 }, new List<double> { 3, 9 }, new List<double> { 1, 2 }, new List<double> { 4, 6 }, new List<double> { 2, 5, 3 }, new List<double> { 1, 5 }, new List<double> { 5, 8 }, new List<double> { 9, 5, 9, 7 }, new List<double> { 3, 8, 3, 2 }, new List<double> { 2, 6, 5, 8, 3, 8 }, new List<double> { 9, 4, 6 },
+            //                        new List<double> { 7, 8, 2, 6 }, new List<double> { 3, 4 }, new List<double> { 2, 3, 3 }, new List<double> { 8, 3, 8 },new List<double> { 4, 3 },new List<double> { 2, 2 },new List<double> { 6, 4, 9 },new List<double> { 6, 3, 7 }, new List<double> { 3, 5 }, new List<double> { 8, 2 },new List<double> { 3, 2, 9, 7, 5, 2 }   },
+            //nstates);
+
+
+            //List<int> shortest_States = myWeightedGraph.GetShortestPath();
+
+            //foreach (int state in shortest_States)
+            //{
+            //    Console.Write(state + " ");
+            //}
+
+            //Console.ReadLine();
+
+
+
+            //WeightedGraph myWeightedGraph = new WeightedGraph(graphComponents, nstates);
+            //List<int> shortest_States = myWeightedGraph.GetShortestPath();
+
+            //foreach (int state in shortest_States)
+            //{
+            //    Console.Write(state + " ");
+            //}
+            //Console.ReadLine();
+
+
+
+
+            //double weight = myWeightedGraph.GetEdgeCost(2,2,3);
+            //Console.WriteLine(weight);
+            //Console.ReadLine();
+
+            //List<int> nstates = new List<int>(){1,6,3,5,6,1};
+            //List<int> PreviousStages_Counts = nstates.GetRange(0, 2);
+            //int IndexOfLastStateFromAllPreviousStates = PreviousStages_Counts.Sum();
+            //Console.WriteLine(IndexOfLastStateFromAllPreviousStates);
+            //Console.ReadLine();
+
+            //WeightedGraph myWeightedGraph = new WeightedGraph(graphComponents);
+
+            //double weight = myWeightedGraph.GetEdgeWeight(4,7);
+            //Console.WriteLine(weight);
+            //Console.ReadLine();
+
+
 
             //int[,] intMatrix = new int[3, 3];
 
@@ -96,7 +518,7 @@ namespace Testing
 
             //string Text = "Mary had a little lamb little Lamb, little Lamb, Mary had a Little lamb, whose fleece were white as snow.";
 
-            // IDictionary<String, int> wordOccurrenceMap = GetWordOccurrenceMap(Text);
+            //IDictionary<String, int> wordOccurrenceMap = GetWordOccurrenceMap(Text);
             // PrintWordOccurrenceCount(wordOccurrenceMap);
             // Console.ReadLine();
 
@@ -377,7 +799,7 @@ namespace Testing
             //tree.Insert("Telerik");
             //tree.Insert("Google");
             //tree.Insert("Microsoft");
-            ////tree.PrintTreeDFS();
+            //tree.PrintTreeDFS();
             ////Console.WriteLine(tree.Contains("Telerik"));
             ////Console.WriteLine(tree.Contains("IBM"));
             //tree.Remove("Telerik");
@@ -517,11 +939,222 @@ namespace Testing
 
         }
 
+        public static class Solution 
+        {
+            public static string solution(int X) 
+            {
+                string stringResult = "Some Output";
+                if (X < 60)
+                {
+                    stringResult = X.ToString();
+                    return stringResult;
+                }
+                else if (X >= 60 && X < (60 * 60))
+                {
+                    double result = X / 60.0;
+
+                    int minute = (int)result;
+
+                    double seconds = result - minute;
+                    if (seconds == 0)
+                    {
+                        stringResult = minute.ToString() + "m";
+                    }
+                    else
+                    {
+                        int seconds1 = (int)(seconds * 60);
+                        stringResult = minute.ToString() + "m" + seconds1.ToString() + "s";
+                    }
+
+                }
+                else if (X >= (60 * 60) && X < (3600 * 24))
+                {
+                    double result = X / (60.0 * 60.0);
+
+                    int hour = (int)result;
+
+                    double seconds = result - hour;
+                    
+                    if (seconds == 0)
+                    {
+                        stringResult = hour.ToString() + "h";
+                    }
+                    else 
+                    {
+                        int seconds1 = (int)(seconds * 60 * 60);
+                        if (seconds1 > 60)
+                        {
+                            int min = (int)seconds1 / 60;
+                            min++;
+                            stringResult = hour.ToString() + "h" + min.ToString() + "m";
+                        }
+                        else 
+                        {
+                            seconds1++;
+                            stringResult = hour.ToString() + "h" + seconds1.ToString() + "s";
+                        }
+                        
+                    }
+                   
+
+                }
+                else if (X >= (3600 * 24) && X < (3600 * 24 * 7))
+                {
+                    double result = X / (60.0 * 60.0 * 24.0);
+
+                    int day = (int)result;
+
+                    double seconds = result - day;
+                    if (seconds == 0)
+                    {
+                        stringResult = day.ToString() + "d";
+                    }
+                    else 
+                    {
+                        int seconds1 = (int)(seconds * 60 * 60 * 24);
+                        if (seconds1 > 3600)
+                        {
+                            int hour = (int)seconds1 / 3600;
+                            hour++;
+                            stringResult = day.ToString() + "d" + hour.ToString() + "h";
+                        }
+                        else{
+                            seconds1++;
+                            stringResult = day.ToString() + "d" + seconds1.ToString() + "s";
+                        }
+                        
+                    }
+                }
+                else
+                {
+                    double result = X / (60.0 * 60.0 * 24.0 * 7.0);
+
+                    int week = (int)result;
+
+                    double seconds = result - week;
+                    if (seconds == 0)
+                    {
+                        stringResult = week.ToString() + "w";
+                    }
+                    else 
+                    {
+                        int seconds1 = (int)(seconds * 60 * 60 * 24 * 7);
+                        if (seconds1 > 60 * 60 * 24)
+                        {
+                            int days = (int)seconds / (60 * 60 * 24);
+                            days++;
+                            stringResult = week.ToString() + "w" + days.ToString() + "d";
+                        }
+                        else 
+                        {
+                            seconds1++;
+                            stringResult = week.ToString() + "w" + seconds1.ToString() + "s";
+                        }
+                        
+                    }
+
+                }
+
+                return stringResult;
+            }
+        }
+
+        public static int solution(string S)
+        {
+            List<string> S_splitted = new List<string>();
+
+            foreach (var Char in S)
+            {
+                S_splitted.Add(Char.ToString());
+            }
+
+            if (S_splitted.Count == 0)
+            {
+                return 1;
+            }
+
+            Stack<string> BracketsStack = new Stack<string>();
+            int counter = 0;
+            foreach (string bracket in S_splitted)
+            {
+                counter++;
+                if (bracket == "[" || bracket == "(" || bracket == "{")
+                {//It's an opening bracket. Add to stack.
+
+                    BracketsStack.Push(bracket);
+                }
+                else if (bracket == "]" || bracket == ")" || bracket == "}")
+                {//it's a closing bracket so compare with the LATEST opening bracket added to the stack.
+
+                    string LatestOpeningBracket = BracketsStack.Pop(); //Pop rather than peek to reduce accumulation and also keep track of the number
+                                                                       //of yet-to-be-matched openingBracket in the utility stack.
+                    if (counter == 1)
+                    {
+                        if (LatestOpeningBracket == "[" || LatestOpeningBracket == "(" || LatestOpeningBracket == "{" || LatestOpeningBracket == "" && counter == 1)
+                        {
+
+                            return 0;//Started with closing bracket - negative match
+                        }
+                    }
+                    
+
+                    if (LatestOpeningBracket == "[" && bracket == "]")
+                    {
+
+                        continue; // It's a matching bracket so continue to the next iteration of the character array.
+                    }
+                    else if (LatestOpeningBracket == "(" && bracket == ")")
+                    {
+                        continue; // It's a matching bracket so continue to the next iteration of the character array.
+                    }
+                    else if (LatestOpeningBracket == "{" && bracket == "}")
+                    {
+                        continue; // It's a matching bracket so continue to the next iteration of the character array.
+                    }
+                    else
+                    {
+                        return 0;//Doesn't have matching bracket }
+
+                    }
+
+                }
+
+            }
+
+            if (BracketsStack.Count > 0)
+            {
+                return 0;//unbalanced because there are remaining unmatched brackets.
+            }
+            else
+            { return 1; } // All openingBrackets where matched and removed from utility stack.}
+        }
+
+
+        public static List<int> minHeaviestSetA(List<int> arr)
+        {
+            int arrCount = arr.Count; int arrA_count = 0;
+            if (arrCount % 2 == 0)
+            {
+                arrA_count = (arrCount / 2) - 1;
+            }
+            else { arrA_count = (int)(arrCount / 2); }
+
+            int arrB_count = arrCount - arrA_count;
+
+
+
+
+            return null;
+        }
+
+
+
+
         /// <summary>
         /// Implementation of Custom ArrayList (A type-based version)
         /// </summary>
         /// <typeparam name="T"></typeparam>
-        public class CustomArrayList<T> 
+        public class CustomArrayList<T>
         {
             private T[] arr;
             private int count;
@@ -698,9 +1331,9 @@ namespace Testing
         /// Implementation of Custom Linked-List
         /// </summary>
         /// <typeparam name="T"></typeparam>
-        public class DynamicList<T> 
+        public class DynamicList<T>
         {
-            private class ListNode 
+            private class ListNode
             {
                 public T Element { get; set; }
                 public ListNode NextNode { get; set; }
@@ -766,7 +1399,7 @@ namespace Testing
                 int currentIndex = 0;
                 ListNode currentNode = this.head;
                 ListNode prevNode = null;
-                while (currentIndex < index) 
+                while (currentIndex < index)
                 {
                     prevNode = currentNode;
                     currentNode = currentNode.NextNode;
@@ -838,7 +1471,7 @@ namespace Testing
                     RemoveListNode(currentNode, prevNode);
                     return currentIndex;
                 }
-                else 
+                else
                 {
                     // The element is not found in the list -> return -1
                     return -1;
@@ -904,7 +1537,7 @@ namespace Testing
                     }
                     ListNode currentNode = this.head;
 
-                    for (int i = 0; i < index; i++) 
+                    for (int i = 0; i < index; i++)
                     {
                         currentNode = currentNode.NextNode;
                     }
@@ -1011,7 +1644,7 @@ namespace Testing
                 return this.children[index];
             }
         }
-        public class Tree<T> 
+        public class Tree<T>
         {
             /// <summary>
             /// The root of the tree
@@ -1037,7 +1670,7 @@ namespace Testing
             /// </summary>
             /// <param name="value">the value of the root node</param>
             /// <param name="children">the children of the root node</param>
-            public Tree(T value, params Tree<T>[] children):this(value)
+            public Tree(T value, params Tree<T>[] children) : this(value)
             {
                 foreach (Tree<T> child in children)
                 {
@@ -1048,7 +1681,7 @@ namespace Testing
             /// <summary>
             /// the root node or null if the root is empty
             /// </summary>
-            public TreeNode<T> Root { get { return this.root;} }
+            public TreeNode<T> Root { get { return this.root; } }
 
             private void PrintDFS(TreeNode<T> root, string SpacesLinker)
             {
@@ -1072,7 +1705,7 @@ namespace Testing
             /// <summary>
             /// Traverses and prints the tree in Depth-First Search manner
             /// </summary>
-            public void TraverseDFS() 
+            public void TraverseDFS()
             {
                 this.PrintDFS(this.root, string.Empty);
             }
@@ -1082,26 +1715,26 @@ namespace Testing
         /// <summary>
         /// Traverses recursively given directory based on the Depth-First-Search (DFS) algorithm
         /// </summary>
-        public static class DirectoryTraverserDFS 
+        public static class DirectoryTraverserDFS
         {
             /// <summary>
             /// Private method that traverses and prints given directory recursively
             /// </summary>
             /// <param name="dir">the directory to be traversed</param>
             /// <param name="spaces">the spaces used for representation of the parent-child relation</param>
-            private static void TraverseDir(DirectoryInfo dir, string spaces) 
+            private static void TraverseDir(DirectoryInfo dir, string spaces)
             {
                 //Visit the current directory
                 Console.WriteLine(spaces + dir.FullName);
-                
+
 
                 DirectoryInfo[] children = dir.GetDirectories();
-                
-                
+
+
                 //For each child, go and visit its sub-tree
                 foreach (DirectoryInfo child in children)
                 {
-                    TraverseDir(child,spaces + " ");
+                    TraverseDir(child, spaces + " ");
                 }
             }
 
@@ -1109,22 +1742,23 @@ namespace Testing
             /// Public method that traverses and prints the given directory recursively
             /// </summary>
             /// <param name="directoryPath">the path to the directory which should be traversed</param>
-            public static void TraverseDir(string directoryPath) 
+            public static void TraverseDir(string directoryPath)
             {
                 TraverseDir(new DirectoryInfo(directoryPath), string.Empty);
             }
         }
 
+
         /// <summary>
         /// Traverses given directory based on Breath-First Search Algorithm
         /// </summary>
-        public static class DirectoryTraverserBFS 
+        public static class DirectoryTraverserBFS
         {
             /// <summary>
             /// Traverses and prints given directories with BFS
             /// </summary>
             /// <param name="directoryPath">the path to the directories which should be traversed</param>
-            public static void TraverseDir(string directoryPath) 
+            public static void TraverseDir(string directoryPath)
             {
                 Queue<DirectoryInfo> visitedDirsQueue = new Queue<DirectoryInfo>();
                 visitedDirsQueue.Enqueue(new DirectoryInfo(directoryPath));
@@ -1143,6 +1777,8 @@ namespace Testing
                 }
             }
         }
+
+
 
         /// <summary>
         /// Represents a binary tree
@@ -1182,9 +1818,33 @@ namespace Testing
             /// Constructs the binary tree with no children
             /// </summary>
             /// <param name="value">The value of the tree node</param>
-            public BinaryTree(T value):this(value,null, null)
+            public BinaryTree(T value) : this(value, null, null)
             {
-                
+
+            }
+
+            /// <summary>
+            /// Gets the tree's  height - that is, the number of edges
+            /// between the tree's root and its furthest leaf.
+            /// </summary>
+            /// <returns></returns>
+            public int getHeight(BinaryTree<T> root)
+            {
+                int height = 0;
+                if (root == null)
+                {
+                    return -1;
+                }
+                else {
+
+                    int LeftChildMaxHeight = getHeight(root.LeftChild);
+                    int RightChildMaxHeight = getHeight(root.RightChild);
+
+                    height = Math.Max(LeftChildMaxHeight, RightChildMaxHeight) + 1;
+
+                }
+
+                return height;
             }
 
             /// <summary>
@@ -1252,6 +1912,35 @@ namespace Testing
 
             }
 
+
+            /// <summary>
+            /// Gets the tree's  height - that is, the number of edges
+            /// between the tree's root and its furthest leaf.
+            /// </summary>
+            /// <returns></returns>
+            public int getHeight(PreOrderBinaryTree<T> root)
+            {
+                int height = 0;
+                if (root == null)
+                {
+                    return -1;
+                }
+                else
+                {
+
+                    int LeftChildMaxHeight = getHeight(root.LeftChild);
+                    int RightChildMaxHeight = getHeight(root.RightChild);
+
+                    height = Math.Max(LeftChildMaxHeight, RightChildMaxHeight) + 1;
+
+                }
+
+                return height;
+            }
+
+
+
+
             /// <summary>
             /// Traverses the binary tree in pre-order
             /// </summary>
@@ -1267,7 +1956,7 @@ namespace Testing
                     this.LeftChild.PrintPreOrder();
                 }
 
-                
+
                 //Visit the right child
                 if (this.RightChild != null)
                 {
@@ -1318,6 +2007,32 @@ namespace Testing
             {
 
             }
+
+            /// <summary>
+            /// Gets the tree's  height - that is, the number of edges
+            /// between the tree's root and its furthest leaf.
+            /// </summary>
+            /// <returns></returns>
+            public int getHeight(PostOrderBinaryTree<T> root)
+            {
+                int height = 0;
+                if (root == null)
+                {
+                    return -1;
+                }
+                else
+                {
+
+                    int LeftChildMaxHeight = getHeight(root.LeftChild);
+                    int RightChildMaxHeight = getHeight(root.RightChild);
+
+                    height = Math.Max(LeftChildMaxHeight, RightChildMaxHeight) + 1;
+
+                }
+
+                return height;
+            }
+
 
             /// <summary>
             /// Traverses the binary tree in post-order
@@ -1384,6 +2099,8 @@ namespace Testing
                     this.leftChild = null;
                     this.rightChild = null;
                 }
+
+
                 public override string ToString()
                 {
                     return this.value.ToString();
@@ -1405,16 +2122,16 @@ namespace Testing
                     return this.value.CompareTo(other.value);
                 }
 
-                internal void Insert(T t, object value)
-                {
-                    throw new NotImplementedException();
-                }
+
             }
+
 
             /// <summary>
             /// The root of the tree
             /// </summary>
-            private BinaryTreeNode<T> root;
+            public BinaryTreeNode<T> root; //initially private
+
+
 
             /// <summary>
             /// Constructs the tree
@@ -1424,7 +2141,7 @@ namespace Testing
                 this.root = null;
             }
 
-           
+
 
             //INSERT
             /// <summary>Inserts new value in the binary search tree
@@ -1433,6 +2150,7 @@ namespace Testing
             public void Insert(T value)
             {
                 this.root = Insert(value, null, root);
+
             }
 
             /// <summary>
@@ -1455,17 +2173,53 @@ namespace Testing
 
                     if (compareTo < 0)
                     {
-                        
+
                         node.leftChild = Insert(value, node, node.leftChild);
 
                     }
                     else if (compareTo > 0)
                     {
-                        
+
                         node.rightChild = Insert(value, node, node.rightChild);
                     }
                 }
+
+
                 return node;
+            }
+
+            public List<int>[] SwapNodes(List<int> Indexes, List<int> K_ValueIntegers)
+            {
+                List<int> h_depths = new List<int>();
+
+                for (int i = 0; i < K_ValueIntegers.Count; i++)
+                {
+                    h_depths.Add(i * K_ValueIntegers[i]);
+                }
+
+
+                Queue<BinaryTreeNode<T>> queue = new Queue<BinaryTreeNode<T>>();
+                queue.Enqueue(root);
+                while (queue.Count != 0)
+                {
+
+                    BinaryTreeNode<T> tempNode = queue.Dequeue();
+                    Console.Write(tempNode.value + " ");
+
+                    /*Enqueue left child */
+                    if (tempNode.leftChild != null)
+                    {
+                        queue.Enqueue(tempNode.leftChild);
+                    }
+
+                    /*Enqueue right child */
+                    if (tempNode.rightChild != null)
+                    {
+                        queue.Enqueue(tempNode.rightChild);
+                    }
+                }
+
+                return null;
             }
 
 
@@ -1476,7 +2230,7 @@ namespace Testing
             /// </summary>
             /// <param name="value">the value to be found</param>
             /// <returns>the found node or null if not found</returns>
-            private BinaryTreeNode<T> Find(T value)
+            public BinaryTreeNode<T> Find(T value)
             {
                 BinaryTreeNode<T> node = this.root;
 
@@ -1549,7 +2303,7 @@ namespace Testing
                     // Handle the case when the element is the root
                     if (node.parent == null)
                     {
-                    root = theChild;
+                        root = theChild;
                     }
                     else
                     {
@@ -1586,7 +2340,121 @@ namespace Testing
                 }
             }
 
-           
+            /// <summary>
+            /// Gets the tree's  height - that is, the number of edges
+            /// between the tree's root and its furthest leaf.
+            /// </summary>
+            /// <returns></returns>
+            public int getHeight_LevelOrder(BinaryTreeNode<T> node)
+            {
+                int height;
+                if (node == null)
+                {
+                    return 0;
+                }
+                else
+                {
+
+                    int LeftChildMaxHeight = getHeight_LevelOrder(node.leftChild);
+                    int RightChildMaxHeight = getHeight_LevelOrder(node.rightChild);
+
+                    height = Math.Max(LeftChildMaxHeight, RightChildMaxHeight); //consider putting the + 1 here.
+
+                }
+
+                return height + 1;
+            }
+
+
+            /// <summary>
+            /// Gets the tree's  height - that is, the number of edges
+            /// between the tree's root and its furthest leaf.
+            /// </summary>
+            /// <returns></returns>
+            public int getHeight(BinaryTreeNode<T> node)
+            {
+                int height;
+                if (node == null)
+                {
+                    return -1;
+                }
+                else
+                {
+
+                    int LeftChildMaxHeight = getHeight(node.leftChild);
+                    int RightChildMaxHeight = getHeight(node.rightChild);
+
+                    height = Math.Max(LeftChildMaxHeight, RightChildMaxHeight);
+
+                }
+
+                return height + 1;
+            }
+
+
+            /// <summary>
+            /// Prints the nodes of a Binary Tree in Level (Height) - Order from Left to Right
+            /// </summary>
+            /// <param name="root"></param>
+            public void LevelOrder(BinaryTreeNode<T> root)
+            {
+                Queue<BinaryTreeNode<T>> queue = new Queue<BinaryTreeNode<T>>();
+                queue.Enqueue(root);
+                while (queue.Count != 0)
+                {
+
+                    BinaryTreeNode<T> tempNode = queue.Dequeue();
+                    Console.Write(tempNode.value + " ");
+
+                    /*Enqueue left child */
+                    if (tempNode.leftChild != null)
+                    {
+                        queue.Enqueue(tempNode.leftChild);
+                    }
+
+                    /*Enqueue right child */
+                    if (tempNode.rightChild != null)
+                    {
+                        queue.Enqueue(tempNode.rightChild);
+                    }
+                }
+            }
+
+
+
+            /// <summary>
+            /// Traverses and prints level order values, that is in breath first search print.
+            /// </summary>
+            /// <param name="root">the path to the directories which should be traversed</param>
+            public void LevelOrder_N2(BinaryTreeNode<T> root)
+            {
+                int height = getHeight_LevelOrder(root);
+                int i;
+                for (i = 1; i <= height; i++)
+                {
+                    printCurrentLevel_N2(root, i);
+                }
+            }
+
+
+            private void printCurrentLevel_N2(BinaryTreeNode<T> root, int currentLevel)
+            {
+                if (root == null)
+                {
+                    return;
+                }
+                if (currentLevel == 1) {
+                    Console.Write(root.value + " ");
+                }
+                else if (currentLevel > 1)
+                {
+                    printCurrentLevel_N2(root.leftChild, currentLevel - 1);
+                    printCurrentLevel_N2(root.rightChild, currentLevel - 1);
+                }
+            }
+
+
+
             //PRINT
             /// <summary>
             /// Traverses and prints the tree
@@ -1614,7 +2482,7 @@ namespace Testing
         /// <summary>
         /// Represents a directed unweighted graph structure
         /// </summary>
-        public class Graph 
+        public class Graph
         {
             //Contains the child nodes for each vertex of the graph
             //assuming that the vertices are numbered 0 ... Size - 1.
@@ -1656,7 +2524,7 @@ namespace Testing
             /// </summary>
             /// <param name="u">the starting vertex</param>
             /// <param name="v">the ending vertex</param>
-            public void AddEdge(int u, int v) 
+            public void AddEdge(int u, int v)
             {
                 childNodes[u].Add(v);
             }
@@ -1666,7 +2534,7 @@ namespace Testing
             /// </summary>
             /// <param name="u">the starting vertex</param>
             /// <param name="v">the ending vertex</param>
-            public void RemoveEdge(int u, int v) 
+            public void RemoveEdge(int u, int v)
             {
                 childNodes[u].Remove(v);
             }
@@ -1677,10 +2545,147 @@ namespace Testing
             /// <param name="u">the starting vertex</param>
             /// <param name="v">the ending vertex</param>
             /// <returns>true if there is an edge between vertex u and vertex v</returns>
-            public bool HasEdge(int u, int v) 
+            public bool HasEdge(int u, int v)
             {
                 bool hasEdge = childNodes[u].Contains(v);
                 return hasEdge;
+            }
+
+
+
+            /// <summary>
+            /// Returns the successors of a given vertex
+            /// </summary>
+            /// <param name="v">the vertex</param>
+            /// <returns>list of all successors of vertex v</returns>
+            public IList<int> GetSuccessors(int v)
+            {
+                return childNodes[v];
+            }
+
+
+
+        }
+
+
+        /// <summary>
+        /// Represents a directed weighted graph structure
+        /// </summary>
+        public class WeightedGraph
+        {
+            //Contains the child nodes for each vertex of the graph
+            //assuming that the vertices are numbered 0 ... Size - 1.
+            private readonly List<int>[] childNodes;
+            private readonly List<double>[] WeightsList;
+            private readonly List<int> nstates;
+            private readonly List<List<int>> allLocations;
+            private int allLocations_count;
+
+            /// <summary>
+            /// Constructs an empty graph of given size
+            /// </summary>
+            /// <param name="size">number of vertices</param>
+            public WeightedGraph(int size)
+            {
+                this.childNodes = new List<int>[size];
+                for (int i = 0; i < size; i++)
+                {
+                    //Assuming an empty list of adjacents for each vertex
+                    this.childNodes[i] = new List<int>();
+                    this.WeightsList[i] = new List<double>();
+                }
+            }
+
+            /// <summary>
+            /// Constructs a graph by given list of child nodes (successors) for each vertex
+            /// </summary>
+            /// <param name="childNodes">children for each node</param>
+            public WeightedGraph(List<int>[] ChildNodes, List<double>[] WeightsList, List<int> nstates,List<List<int>> allLocations)
+            {
+                List<double> theWeights = new List<double>();
+
+                foreach (var point in allLocations)
+                { 
+                    theWeights.Add(Math.Sqrt((point.First() * point.First()) + point.Last() * point.Last()));
+                }
+	
+                int allLocations_count = allLocations.Count;
+                this.WeightsList[0] = theWeights;
+
+                for (int i = 1; i < this.allLocations_count; i++)
+                {
+                            
+
+                }
+	
+                this.childNodes = ChildNodes;
+                this.WeightsList = WeightsList;
+                this.nstates = nstates;
+                
+                
+            }
+
+            /// <summary>
+            /// Returns the size of the graph (number of vertices)
+            /// </summary>
+            public int Size
+            {
+                get { return this.childNodes.Length; }
+            }
+
+            /// <summary>
+            /// Adds new edge from u to v
+            /// </summary>
+            /// <param name="u">the starting vertex</param>
+            /// <param name="v">the ending vertex</param>
+            public void AddEdge(int u, int v)
+            {
+                childNodes[u].Add(v);
+            }
+
+            /// <summary>
+            /// Removes the edge from u to v if such exists
+            /// </summary>
+            /// <param name="u">the starting vertex</param>
+            /// <param name="v">the ending vertex</param>
+            public void RemoveEdge(int u, int v)
+            {
+                childNodes[u].Remove(v);
+            }
+
+            /// <summary>
+            /// Checks whether there is an edge between vertex u and v
+            /// </summary>
+            /// <param name="u">the starting vertex</param>
+            /// <param name="v">the ending vertex</param>
+            /// <returns>true if there is an edge between vertex u and vertex v</returns>
+            public bool HasEdge(int u, int v)
+            {
+                bool hasEdge = childNodes[u].Contains(v);
+                return hasEdge;
+            }
+
+            public double GetEdgeWeight(int u, int v)
+            {
+                if (this.HasEdge(u, v))
+                {
+                    List<int> currentChildNodes = this.GetSuccessors(u).ToList();
+
+                    List<double> currentWeights = WeightsList[u];
+
+                    double foundWeight = double.PositiveInfinity;
+                    for (int i = 0; i < currentChildNodes.Count; i++)
+                    {
+                        if (currentChildNodes[i] == v)
+                        {
+                            foundWeight = currentWeights[i];
+                            break;
+                        }
+                    }
+                    return foundWeight;
+                }
+                else { return double.PositiveInfinity; }
+
             }
 
             /// <summary>
@@ -1688,17 +2693,362 @@ namespace Testing
             /// </summary>
             /// <param name="v">the vertex</param>
             /// <returns>list of all successors of vertex v</returns>
-            public IList<int> GetSuccessors(int v) 
+            public IList<int> GetSuccessors(int v)
             {
                 return childNodes[v];
             }
 
+            /// <summary>
+            /// Returns the cost of moving between state (vertice) j of stage i and state (vertice) k of stage i + 1.
+            /// </summary>
+            /// <param name="state_j"></param>
+            /// <param name="state_k"></param>
+            /// <param name="stage_i"></param>
+            /// <returns></returns>
+            public double GetEdgeCost(int state_j, int state_k, int stage_i)
+            {
+                if (stage_i >= (this.nstates.Count - 1))
+                {
+                    throw new Exception("jth stage must be less than index of last stage ");
+                }
+                List<int> PreviousStages_Counts = this.nstates.GetRange(0, stage_i);
+                int IndexOfLastStateFromAllStatesInPreviousStages = PreviousStages_Counts.Sum();
+
+                int u = IndexOfLastStateFromAllStatesInPreviousStages + state_j;
+
+
+                List<int> Stages_Counts = this.nstates.GetRange(0, stage_i + 1);
+                int IndexOfLastStateFromAllStatesUpToCurrentStage = Stages_Counts.Sum();
+
+                int v = IndexOfLastStateFromAllStatesUpToCurrentStage + state_k;
+
+                double EdgeCost = GetEdgeWeight(u, v);
+                return EdgeCost;
+            }
+
+            /// <summary>
+            /// Given the vector nstate whose integer values are the number of states in each stage (1 for the first and last stages),
+            /// And also utilised in this routine, a function cost(j,k,i) that returns the cost of moving between state j of stage i
+            /// and state k of stage i + 1, this routine returns a vector of the same length as nstate containing the state numbers of the lowest cost path.
+            /// Note that states number from 0, and the first and last components of the returned vector will thus always be 0.
+            /// </summary>
+            /// <returns></returns>
+            /// <exception cref="Exception"></exception>
+            public List<int> GetShortestPath()
+            {
+                const double BIG = double.PositiveInfinity;
+                const double EPS = double.Epsilon;
+
+                int i, j, k, nstage = nstates.Count - 1;
+                double a, b;
+                List<int> answer = new int[nstage + 1].ToList();
+                List<int> zeroBasedNodesIndex = new List<int>();
+                List<int> zeroBasedShortestPathNodes = new List<int>();
+
+                if (nstates[0] != 1 || nstates[nstage] != 1)
+                {
+                    throw new Exception("One state allowed in first and last stages");
+                }
+
+                double[][] best = new double[nstage + 1][]; //Allocate array-of-arrays for storing scores. 
+                best[0] = new double[nstates[0]];
+                best[0][0] = 0;
+
+
+                for (i = 1; i <= nstage; i++)    //Forward sweep through stages (left to right)
+                {
+                    best[i] = new double[nstates[i]];
+                    for (k = 0; k < nstates[i]; k++)
+                    {
+                        b = BIG;
+                        for (j = 0; j < nstates[i - 1]; j++) //Find predecessor that gave minimum cost
+                        {
+                            if ((a = best[i - 1][j] + this.GetEdgeCost(j, k, i - 1)) < b)
+                            {
+                                b = a;
+                            }
+                        }
+                        best[i][k] = b;  // Find successor least cost
+                    }
+                }
+
+
+                answer[nstage] = answer[0] = 0;
+
+                for (i = nstage - 1; i > 0; i--)     //Begin backward track.
+                {
+                    k = answer[i + 1];
+
+                    b = best[i + 1][k];
+                    for (j = 0; j < nstates[i]; j++) //Find the predecessor that gave minimum cost
+                    {
+                        double temp = best[i][j] + GetEdgeCost(j, k, i);
+                        if (Math.Abs(b - temp) < (EPS * Math.Abs(temp)))
+                        {
+                            answer[i] = j;
+                            break;
+                        }
+                    }
+
+                }
+
+                int cum_StageCountPrevious = 0;
+                for (int stage = 0; stage <= nstage; stage++)
+                {
+                    for (int states = 0; states < nstates[stage]; states++)
+                    {
+                        if (stage == 0 && states == 0)
+                        {
+                            zeroBasedNodesIndex.Add(0);
+                            cum_StageCountPrevious = nstates[stage];
+                            break;
+                        }
+                        else if (stage > 0 && stage < nstage)
+                        {
+                            zeroBasedNodesIndex.Add(cum_StageCountPrevious + states);
+                            if (states == nstates[stage] - 1)
+                            {
+                                cum_StageCountPrevious += nstates[stage];
+                            }
+                        }
+                        else if (stage == nstage && states == 0)
+                        {
+                            zeroBasedNodesIndex.Add(nstates.Sum() - 1);
+                            cum_StageCountPrevious = nstates[stage];
+                            break;
+                        }
+
+                    }
+
+                }
+
+                int cum_prev_StageCounts = 0;
+                for (int ans = 0; ans < answer.Count; ans++)
+                {
+                    if (ans == 0)
+                    {
+                        zeroBasedShortestPathNodes.Add(0);
+                    }
+                    else
+                    {
+                        int previousStageCount = nstates[ans - 1];
+                        cum_prev_StageCounts += previousStageCount;
+                        zeroBasedShortestPathNodes.Add(cum_prev_StageCounts + answer[ans]);
+                    }
+                }
+
+
+
+                return answer;
+            }
+
         }
+
+
+
+
+
+        // A C# program for Dijkstra's single source shortest path algorithm.
+        // The program is for adjacency matrix representation of the graph
+        public class GetShortestNodesPaths
+        {
+            // A utility function to find the
+            // vertex with minimum distance
+            // value, from the set of vertices
+            // not yet included in shortest
+            // path tree
+
+            public int V;
+
+            public int m;
+            public int[,] graph;
+            public int src;
+            public List<int>[] myEdges;
+            public List<int>[] childNodes;
+
+
+
+            public GetShortestNodesPaths(int[,] graph, int n, int m, int s)
+            {
+                this.src = s; this.graph = new int[n, n];
+
+                this.V = n; this.m = m;
+
+                this.graph = graph;
+
+
+            }
+
+            public GetShortestNodesPaths(List<int>[] myEdges, int n, int m, int s)
+            {
+                this.src = s; this.graph = new int[n, n];
+
+                this.V = n; this.m = m;
+
+                this.myEdges = new List<int>[m]; this.myEdges = myEdges;
+
+                this.childNodes = new List<int>[n];
+
+                for (int i = 0; i < graph.GetLength(0); i++)
+                {
+
+                    for (int j = 0; j < this.myEdges.Count(); j++)
+                    {
+                        if (myEdges[j].Contains(i))
+                        {
+                            int VertexNumber1_Edge = myEdges[j].First();
+                            int VertexNumber2_Edge = myEdges[j].Last();
+
+                            if (i == myEdges[j].First())
+                            {
+                                this.graph[i, VertexNumber2_Edge] = 6;
+                            }
+
+                            if (i == myEdges[j].Last())
+                            {
+                                this.graph[i, VertexNumber1_Edge] = 6;
+                            }
+                        }
+
+                    }
+
+                }
+
+
+
+
+
+            }
+
+
+
+            int minDistanceVertex(int[] dist, bool[] sptSet)
+            {
+                // Initialize min value
+                int min = int.MaxValue, min_index = -1;
+
+                for (int v = 0; v < V; v++)
+                    if (sptSet[v] == false && dist[v] <= min)
+                    {
+                        min = dist[v];
+                        min_index = v;
+                    }
+
+                return min_index;
+            }
+
+            // A utility function to print
+            // the constructed distance array
+            void printSolution(int[] dist)
+            {
+                //Console.Write("Vertex \t\t Distance "
+                //            + "from Source\n");
+
+                for (int i = 0; i < V; i++)
+                {
+                    if (i == this.src)
+                    { continue; }
+                    //Console.Write(i + " \t\t " + dist[i] + "\n");
+                    Console.Write(dist[i] + " ");
+                }
+                Console.WriteLine();
+            }
+
+            // Function that implements Dijkstra's
+            // single source shortest path algorithm
+            // for a graph represented using adjacency
+            // matrix representation
+            public void dijkstra()
+            {
+                int[] dist = new int[V]; // The output array. dist[i]
+                                         // will hold the shortest
+                                         // distance from given src to  all i's (the vertices)
+
+                // sptSet[i] will true if vertex
+                // i is included in shortest path
+                // tree or shortest distance from
+                // src to i is finalized
+                bool[] sptSet = new bool[V];
+
+                // Initialize all distances as
+                // INFINITE and stpSet[] as false
+                for (int i = 0; i < V; i++)
+                {
+                    dist[i] = int.MaxValue;
+                    sptSet[i] = false;
+                }
+
+                // Distance of source vertex
+                // from itself is always 0
+                dist[this.src] = 0;
+
+
+                // Find shortest path for all vertices
+                for (int count = 0; count < V - 1; count++)
+                {
+
+                    // Pick the minimum distance vertex from the set of vertices not yet
+                    // processed. u is always equal to src in first iteration.
+                    int u = minDistanceVertex(dist, sptSet);
+
+                    // Mark the picked vertex as processed
+                    sptSet[u] = true;
+
+
+                    // Update dist value of the adjacent
+                    // vertices of the picked vertex.
+                    for (int v = 0; v < V; v++)
+                    {
+                        // Update dist[v] only if is not in sptSet, there is an edge from u
+                        // to v, and total weight of path from src to v through u is smaller
+                        // than current value of dist[v]
+
+                        if (!sptSet[v] && graph[u, v] != 0 && dist[u] != int.MaxValue && dist[u] + graph[u, v] < dist[v])
+                            dist[v] = dist[u] + graph[u, v];
+                    }
+
+                }
+
+                //change the default value for the vertices having no path to the source / start index
+                for (int i = 0; i < dist.Length; i++)
+                {
+                    if (dist[i] == int.MaxValue)
+                    {
+                        dist[i] = -1;
+                    }
+                    if (this.src != 0)
+                    {
+                        dist[this.src] = -1;
+                    }
+                }
+
+                // print the constructed distance array
+                printSolution(dist);
+            }
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         /// <summary>
         /// Instantiates and traverses graph based on DFS
         /// </summary>
-        public static class GraphTraverserDFS 
+        public static class GraphTraverserDFS
         {
             public static Graph graph = new Graph(new List<int>[]{new List<int>(){4},           //successors of vertice 0
                                                     new List<int>(){1, 2, 6},                  //successors of vertice 1
@@ -1759,9 +3109,9 @@ namespace Testing
             }
         }
 
-        public static int GetHammingDistance(string str1, string str2) 
+        public static int GetHammingDistance(string str1, string str2)
         {
-            
+
             int hammingDistance = 0;
 
 
@@ -1775,7 +3125,7 @@ namespace Testing
                     }
                 }
             }
-                
+
             return hammingDistance;
         }
 
@@ -1942,65 +3292,60 @@ namespace Testing
             private class AirPlaneSeaterObject
             {
                 public int[,] compartment;
-                
+
 
                 public AirPlaneSeaterObject(int rows, int columns)
                 {
                     this.compartment = new int[rows, columns];
                 }
 
-                private void FillAisleSeatsByCompartment(int compartmentID, int[] PassengerID) 
+                private void FillAisleSeatsByCompartment(int compartmentID, int[] PassengerID)
                 {
-                    
-                        switch (compartmentID)//THIS ALGORITHM IS BASED ON COMPARTMENT ID
-                        {
-                           
-                            case 1: //In this compartment, Row First!
-                                int startValue1 = 1;
-                                this.compartment[0, 2] = startValue1;
-                                this.compartment[1, 2] = startValue1 + 2 + 2 + 1 + 1;
+
+                    switch (compartmentID)//THIS ALGORITHM IS BASED ON COMPARTMENT ID
+                    {
+
+                        case 1: //In this compartment, Row First!
+                            int startValue1 = 1;
+                            this.compartment[0, 2] = startValue1;
+                            this.compartment[1, 2] = startValue1 + 2 + 2 + 1 + 1;
                             break;
 
-                            case 2: //In this compartment, Row First!
-                                int startValue2 = 2;
-                                this.compartment[0, 0] = startValue2;
-                                this.compartment[0, 3] = this.compartment[0, 0] + 1;
-                                this.compartment[1, 0] = this.compartment[0, 3] + 2 + 1 + 1 + 1;
-                                this.compartment[1, 3] = this.compartment[1, 0] + 1;
-                                this.compartment[2, 0] = this.compartment[1, 3] + 2 + 1 + 1;
-                                this.compartment[2, 3] = this.compartment[2, 0] + 1;
+                        case 2: //In this compartment, Row First!
+                            int startValue2 = 2;
+                            this.compartment[0, 0] = startValue2;
+                            this.compartment[0, 3] = this.compartment[0, 0] + 1;
+                            this.compartment[1, 0] = this.compartment[0, 3] + 2 + 1 + 1 + 1;
+                            this.compartment[1, 3] = this.compartment[1, 0] + 1;
+                            this.compartment[2, 0] = this.compartment[1, 3] + 2 + 1 + 1;
+                            this.compartment[2, 3] = this.compartment[2, 0] + 1;
                             break;
 
-                            case 3: //In this compartment, Row First!
-                                int startValue3 = 4;
-                                this.compartment[0, 0] = startValue3;
-                                this.compartment[0, 1] = this.compartment[0, 0] + 1;
-                                this.compartment[1, 0] = this.compartment[0, 1] + 1 + 1 + 2 + 1;
-                                this.compartment[1, 1] = this.compartment[1, 0] + 1;
-                                this.compartment[2, 0] = this.compartment[1, 1] + 1 + 2 + 1;
-                                this.compartment[2, 1] = this.compartment[2, 0] + 1;
+                        case 3: //In this compartment, Row First!
+                            int startValue3 = 4;
+                            this.compartment[0, 0] = startValue3;
+                            this.compartment[0, 1] = this.compartment[0, 0] + 1;
+                            this.compartment[1, 0] = this.compartment[0, 1] + 1 + 1 + 2 + 1;
+                            this.compartment[1, 1] = this.compartment[1, 0] + 1;
+                            this.compartment[2, 0] = this.compartment[1, 1] + 1 + 2 + 1;
+                            this.compartment[2, 1] = this.compartment[2, 0] + 1;
                             break;
 
-                            case 4: //In this compartment, Row First!
-                                int startValue4 = 6;
-                                this.compartment[0, 0] = startValue4;
-                                this.compartment[1, 0] = this.compartment[0, 0] + 1 + 2 + 2 + 1;
-                                this.compartment[2, 0] = this.compartment[1, 0] + 2 + 2 + 1;
-                                this.compartment[3,0] = this.compartment[2, 0] + 1;
+                        case 4: //In this compartment, Row First!
+                            int startValue4 = 6;
+                            this.compartment[0, 0] = startValue4;
+                            this.compartment[1, 0] = this.compartment[0, 0] + 1 + 2 + 2 + 1;
+                            this.compartment[2, 0] = this.compartment[1, 0] + 2 + 2 + 1;
+                            this.compartment[3, 0] = this.compartment[2, 0] + 1;
                             break;
 
 
-                        }
+                    }
 
-                    
 
-                     
+
+
                 }
-
-
-
-
-
 
 
 
@@ -2024,10 +3369,485 @@ namespace Testing
                     this.PassengerID[i] = i;
                 }
             }
+
+        }
+
+        /// <summary>
+        /// Sorts an array arr[0...n-1] into ascending numerical order, by straight insertion.
+        /// ArrayToSort array is replaced on output by its sorted arrangement.
+        /// </summary>
+        /// <param name="ArrayToSort"></param>
+        public static void StraightInsertionSort(ref List<int> ArrayToSort)
+        {
+            int i, j, n = ArrayToSort.Count;
+            int a;
+            for (j = 1; j < n; j++)
+            {
+                a = ArrayToSort[j];
+                i = j;
+
+                while (i > 0 && ArrayToSort[i - 1] > a)
+                {
+                    ArrayToSort[i] = ArrayToSort[i - 1];
+                    i--;
+                }
+                ArrayToSort[i] = a;
+            }
+
+        }
+        public static void StraightInsertionSort(ref List<double> ArrayToSort)
+        {
+            int i, j, n = ArrayToSort.Count;
+            double a;
+            for (j = 1; j < n; j++)
+            {
+                a = ArrayToSort[j];
+                i = j;
+                while (i > 0 && ArrayToSort[i - 1] > a)
+                {
+                    ArrayToSort[i] = ArrayToSort[i - 1];
+                    i--;
+                }
+                ArrayToSort[i] = a;
+            }
+
+        }
+
+        public static void StraightInsertionSortPair(ref List<double> ArrayToSort, ref List<double> ArrayToSort2)
+        {
+            int i, j, n = ArrayToSort.Count;
+            double a;
+            double b;
+            for (j = 1; j < n; j++)
+            {
+                a = ArrayToSort[j];
+                b = ArrayToSort2[j];
+                i = j;
+                while (i > 0 && ArrayToSort[i - 1] > a)
+                {
+                    ArrayToSort[i] = ArrayToSort[i - 1];
+                    ArrayToSort2[i] = ArrayToSort2[i - 1];
+                    i--;
+                }
+                ArrayToSort[i] = a;
+                ArrayToSort2[i] = b;
+            }
+
+        }
+
+        /// <summary>
+        /// Sort an array a[0..n-1] into ascending numerical order by Shell’s method (diminishing increment sort).
+        /// a is replaced on output by its sorted rearrangement. Normally, the optional
+        ///argument m should be omitted, but if it is set to a positive value, then only the first m elements are sorted.
+        /// </summary>
+        /// <param name="ArrayToSort"></param>
+        /// <param name="m"></param>
+        public static void ShellSort(ref List<double> ArrayToSort, int m = -1)
+        {
+
+            int i, j, inc, n = ArrayToSort.Count();
+            double v;
+            if (m > 0) n = Math.Min(m, n); //Use optional argument.
+            inc = 1; //Determine the starting increment.
+            do
+            {
+                inc *= 3;
+                inc++;
+            } while (inc <= n);
+
+            do
+            {
+                inc /= 3;
+                for (i = inc; i < n; i++)
+                {
+                    //Outer loop of straight insertion.
+                    v = ArrayToSort[i];
+                    j = i;
+                    while (ArrayToSort[j - inc] > v)
+                    {
+                        //Inner loop of straight insertion.
+                        ArrayToSort[j] = ArrayToSort[j - inc];
+                        j -= inc;
+                        if (j < inc) break;
+                    }
+
+                    ArrayToSort[j] = v;
+                }
+
+            } while (inc > 1);
+
+
+        }
+
+        /// <summary>
+        /// Sort an array arr[0..n-1] into ascending numerical order using the Quicksort algorithm. arr
+        /// is replaced on output by its sorted rearrangement. Normally, the optional argument m should be
+        /// omitted, but if it is set to a positive value, then only the first m elements of arr are sorted.
+        /// </summary>
+        /// <param name="arr"></param>
+        public static void QuickSort(ref List<double> arr, int m = -1)
+        {
+
+            const int M = 7, NSTACK = 64;
+
+            //Here M is the size of subarrays sorted by straight insertion and NSTACK is the required
+            //auxiliary storage.
+            int i, ir, j, k, jstack = -1, l = 0, n = arr.Count();
+            double a;
+            List<int> istack = new int[NSTACK].ToList();
+            if (m > 0) n = Math.Min(m, n); //Use optional argument.
+            ir = n - 1;
+            for (; ; )
+            {
+                //Insertion sort when subarray small enough.
+                if (ir - l < M)
+                {
+                    for (j = l + 1; j <= ir; j++)
+                    {
+                        a = arr[j];
+                        for (i = j - 1; i >= l; i--)
+                        {
+                            if (arr[i] <= a) break;
+                            arr[i + 1] = arr[i];
+                        }
+                        arr[i + 1] = a;
+                    }
+                    if (jstack < 0) break;
+                    ir = istack[jstack--]; //Pop stack and begin a new round of partil = istack[jstack--]; tioning.
+                }
+                else
+                {
+                    k = (l + ir) >> 1; //Choose median of left, center, and right elements as partitioning element a. Also
+                                       //rearrange so that a[l]  a[l + 1]  a[ir].
+                    SWAP(ref arr, k, l + 1);
+                    if (arr[l] > arr[ir])
+                    {
+                        SWAP(ref arr, l, ir);
+                    }
+                    if (arr[l + 1] > arr[ir])
+                    {
+                        SWAP(ref arr, l + 1, ir);
+                    }
+                    if (arr[l] > arr[l + 1])
+                    {
+                        SWAP(ref arr, l, l + 1);
+                    }
+                    i = l + 1; //Initialize pointers for partitioning.
+                    j = ir;
+                    a = arr[l + 1]; //Partitioning element.
+                    for (; ; )
+                    {
+                        //Beginning of innermost loop.
+                        do i++; while (arr[i] < a); //Scan up to find element > a.
+                        do j--; while (arr[j] > a); //Scan down to find element < a.
+                        if (j < i) break; //Pointers crossed. Partitioning complete.
+                        SWAP(ref arr, i, j); //Exchange elements.
+                    }
+                    //End of innermost loop.
+                    arr[l + 1] = arr[j]; //Insert partitioning element.
+                    arr[j] = a;
+                    jstack += 2;
+                    //Push pointers to larger subarray on stack; process smaller subarray immediately
+                    if (jstack >= NSTACK) throw new Exception("NSTACK too small in sort.");
+                    if (ir - i + 1 >= j - l)
+                    {
+                        istack[jstack] = ir;
+                        istack[jstack - 1] = i;
+                        ir = j - 1;
+                    }
+                    else
+                    {
+                        istack[jstack] = j - 1;
+                        istack[jstack - 1] = l;
+                        l = i;
+                    }
+
+
+                }
+            }
+        }
+
+        public static string isBalanced(string s)
+        {
+
+            int sLength = s.Length;
+            if ((sLength % 2) != 0)
+            {
+                return "NO";
+            }
+
+            List<char> s_chars = s.ToCharArray().ToList();
+            Stack<char> s_charStacks = new Stack<char>();
+            s_chars.ForEach(i => s_charStacks.Push(i));//List-wise transfer to a stack.
+
+            Dictionary<char, char> bracketsMap = new Dictionary<char, char>();
+            bracketsMap.Add('{', '}'); bracketsMap.Add('[', ']'); bracketsMap.Add('(', ')');
+
+            while (s_charStacks.Count > 1)
+            {
+                char popped_Last = s_charStacks.Pop();
+                char peekedOne = s_charStacks.Peek();
+                if (bracketsMap.ContainsValue(popped_Last)) // last must be  a value
+                {
+                    if (bracketsMap.ContainsKey(peekedOne)) //check if next is a key
+                    {
+                        bracketsMap.TryGetValue(peekedOne, out char checkValue);
+                        if (checkValue == popped_Last)
+                        {//Then the key form a key-value pair with the last popped value.
+
+                            s_charStacks.Pop();// So pop the peeked one as well.
+                            if (s_charStacks.Count == 0)
+                            {
+                                return "YES";
+                            }
+                            else { continue; }
+
+                        }
+                        else { return "NO"; }//Wrongly placed key.
+
+                    }
+                    else
+                    {   //Next value from the right is not a key. it is a value.
+                        //Therefore Remove the first key (from the right) for which the
+                        //last popped value makes a key-value pair.
+
+                        char poppedLast_Key = '\u0000'; //Default value for char.
+                        foreach (var bracketPair in bracketsMap)
+                        {
+                            if (bracketPair.Value == popped_Last)
+                            {
+                                poppedLast_Key = bracketPair.Key;
+                                break;//could have other values with the same key.
+                            }
+                        }
+                        List<char> currentChars = new List<char>();
+                        currentChars = s_charStacks.ToList(); //stackwise transfer to a list(last one - first in)
+
+                        //reverse for possible removal and finding of sub-brackets
+                        currentChars.Reverse();
+
+                        int indexLeftToRight = IndexOfOpeningBracket(poppedLast_Key, currentChars);
+
+                        if (indexLeftToRight == -1)//bracket not balanced.
+                        {
+                            return "NO";
+                        }
+                        else
+                        {
+                            //gets the right-to-left based index for sub-brackets checking
+                            int indexOfKeyFromRightToLeft = currentChars.Count - indexLeftToRight - 1;
+
+
+                            if (indexOfKeyFromRightToLeft > 1) //there may be sub-brackets existing
+                            {
+                                //Remove from left to right, the value of the item at this index
+                                currentChars.RemoveAt(indexLeftToRight);
+
+                                List<string> new_sList = currentChars.Select(i => i.ToString()).ToList();
+                                string new_s = string.Join("", new_sList);
+                                string result = isBalanced(new_s);
+                                if (result == "NO") return result;
+                            }
+
+                            s_charStacks.Clear();
+                            currentChars.ForEach(i => s_charStacks.Push(i));
+                            continue;
+                        }
+
+                    }
+                }
+                else { return "NO"; }
+
+            }
+
+
+            return null;
+        }
+
+        //Conditional Method
+        private static int IndexOfOpeningBracket(char OpeningBracket, List<char> Characters)
+        {
+            List<char> CharctersCopy = new List<char>();
+            CharctersCopy = Characters;
+
+            int index = CharctersCopy.LastIndexOf(OpeningBracket);
+            if (index == -1) return index;
+            if (index == 0) return index;
+            else
+            {
+                while (index > 0 && index < CharctersCopy.Count)
+                {
+
+                    if (OpeningBracket == CharctersCopy[index] && index % 2 == 0)
+                    {//It exists. its even we are good!
+                        return index;
+
+                    }
+                    else if (OpeningBracket == CharctersCopy[index] && index % 2 != 0)
+                    {//It exists but its odd. return the next preceeding index of "Opening Bracket".
+                        List<char> subSet = new List<char>(); subSet = CharctersCopy;
+                        subSet.RemoveRange(index, CharctersCopy.Count - index);
+                        index = subSet.LastIndexOf(OpeningBracket);
+                        return index;
+                    }
+                    else { index--; } //No luck currently. Try again.
+
+
+                }
+            }
+
+            return index;
+        }
+
+
+
+
+
+
+        public static void SWAP(ref List<double> arr, int i, int j)
+        {
+            double x = arr[i];
+            double y = arr[j];
+
+            double temp = x;
+            arr[i] = y;
+            arr[j] = temp;
+        }
+
+        public static void SWAP(ref double[] arr, int i, int j)
+        {
+            double x = arr[i];
+            double y = arr[j];
+
+            double temp = x;
+            arr[i] = y;
+            arr[j] = temp;
+        }
+
+        public static void SWAP(ref int[] arr, int i, int j)
+        {
+            int x = arr[i];
+            int y = arr[j];
+
+            int temp = x;
+            arr[i] = y;
+            arr[j] = temp;
+        }
+
+
+        public static void sift_down(ref List<double> ra, int l, int r)
+        //Carry out the sift-down on element ra(l) to maintain the heap structure.l and r determine
+        //the “left” and “right” range of the sift-down.
+        {
+            int j, jold;
+            double a;
+            a = ra[l];
+            jold = l;
+            j = 2 * l + 1;
+            while (j <= r) {
+                if (j < r && ra[j] < ra[j + 1]) j++; //Compare to the better underling.
+                if (a >= ra[j]) break; //Found a’s level.Terminate the siftdown.Otherwise, demote a and continue.
+                ra[jold] = ra[j];
+                jold = j;
+                j = 2 * j + 1;
+            }
+            ra[jold] = a; //Put a into its slot.
+        }
+
+        public static void hpsort(ref List<double> ra)
+        //Sort an array ra[0..n - 1] into ascending numerical order using the Heapsort algorithm.ra is
+        //replaced on output by its sorted rearrangement.
+        {
+            int i, n = ra.Count();
+            for (i = n / 2 - 1; i >= 0; i--)//NEEDS TO BE INVESTIGATED
+                                            //            The index i, which here determines the “left” range of the sift-down, i.e., the element
+                                            //to be sifted down, is decremented from n / 2 - 1 down to 0 during the “hiring” (heap
+                                            //creation) phase.
+                sift_down(ref ra, i, n - 1);
+            for (i = n - 1; i > 0; i--)
+            {
+                //Here the “right” range of the sift-down is decremented from n - 2 down to 0 during the
+                //“retirement - and - promotion” (heap selection) phase.
+                SWAP(ref ra, 0, i); //Clear a space at the end of the array, and retire
+                                    //hpsort_util::sift_down(ra, 0, i - 1); the top of the heap into it.
+            }
+        }
+
+        public static double RunningMedian(List<double> RunningList, double newmember)
+        {
+            if (RunningList.Count == 0) RunningList.Add(newmember);
+            else
+            {
+                int i = RunningList.FindIndex(d => d > newmember);
+                RunningList.Insert(i,newmember);
+            }
+            double ii = RunningList.Count - 1;
+            ii /= 2;
+
+            if ((int)ii == ii)
+            {
+                return RunningList[(int)ii];
+            }
+            else { return (RunningList[(int)ii] + RunningList[(int)ii + 1]) / 2; };
+
+        }
+
+
+        public class Contacts 
+        {
+            public List<string> strings = new List<string>();
+
+            public void Add(string name) 
+            {
+                strings.Add(name);
+            }
+
+            public int Find(string partial) 
+            {
+                int count = 0;
+                foreach (string s in strings)
+                    if (s.IndexOf(partial) >= 0)
+                        count++;
+                return count;
+            }
+        
+        }
+
+        public class KnapSack_Table
+        {
+            private readonly List<double>[] Table;
+            List<double> Weights;
+            List<double> Values;
+            IEnumerable<string> ItemNames;
+
+            public KnapSack_Table(List<double> values, List<double> weights, List<string> itemNames, int KnapSackCapacity)
+            {
+                this.Table = new List<double>[weights.Count]; this.Values = values; this.Weights = weights;
+                this.ItemNames = itemNames;
+
+                for (int i = 0; i < this.Weights.Count; i++)
+                {
+                    for (int j = 1; j <= KnapSackCapacity; j++)
+                    {
+                        double C = 0; C++;
+                        List<double> possibleWeights = new List<double>();
+                        possibleWeights = Weights.FindAll(x => x > C);
+
+                        List<double> possibleValues = new List<double>();   
+                        
+                    }
+                }
+
+
+            }
+            private bool predi(double x) 
+            { 
+                
+                return false;
+            }
             
         }
 
-        
     }
 
         
